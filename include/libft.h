@@ -6,7 +6,7 @@
 /*   By: fgabler <fgabler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 17:56:04 by fgabler           #+#    #+#             */
-/*   Updated: 2025/12/09 12:56:52 by fgabler          ###   ########.fr       */
+/*   Updated: 2025/12/09 12:58:19 by fgabler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@
 # include <limits.h>
 # include <fcntl.h>
 # include <stddef.h>
+# include <stdbool.h>
 
 # ifndef CUSTOM_CONTENT
 #  define CUSTOM_CONTENT
