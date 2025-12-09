@@ -6,7 +6,7 @@
 /*   By: fgabler <fgabler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 17:56:04 by fgabler           #+#    #+#             */
-/*   Updated: 2023/11/23 16:07:29 by fgabler          ###   ########.fr       */
+/*   Updated: 2025/12/09 12:56:52 by fgabler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,6 @@ typedef void	*t_content;
 
 # endif
 
-/* STRUCTS */
-typedef enum e_bool{false, true}	t_bool;
 
 /* double circular lists */
 typedef enum e_direction{clockwise, counter_clockwise}	t_direction;
