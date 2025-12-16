@@ -40,7 +40,8 @@ SRC_STR :=	ft_atoi.c ft_itoa.c	ft_strtol.c								\
 			ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c		\
 			ft_strlen.c ft_strmapi.c ft_strncmp.c						\
 			ft_strnstr.c ft_strrchr.c ft_strtrim.c						\
-			ft_substr.c ft_strjoin_mod_uns.c ft_strlen_uns.c
+			ft_substr.c ft_strjoin_mod_uns.c ft_strlen_uns.c			\
+			ft_strchr.c
 
 SRCS := $(SRC_ARR) $(SRC_CHAR) $(SRC_CLIST) $(SRC_GNL) $(SRC_IO) $(SRC_LIST) \
 			$(SRC_MEM) $(SRC_PRINT) $(SRC_STR)

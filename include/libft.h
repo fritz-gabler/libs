@@ -6,7 +6,7 @@
 /*   By: fgabler <fgabler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 17:56:04 by fgabler           #+#    #+#             */
-/*   Updated: 2025/12/09 12:58:19 by fgabler          ###   ########.fr       */
+/*   Updated: 2025/12/15 15:28:53 by fgabler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,6 +135,7 @@ void			ft_print_uns(unsigned int ret_from_arg, int *ret_len);
 
 /* get_next_line */
 char			*ft_strjoin_mod(char *s1, char *s2);
+size_t	ft_strlen_null_protected(const char *str);
 char			*get_next_line(int fd);
 
 #endif
