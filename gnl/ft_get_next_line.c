@@ -6,7 +6,7 @@
 /*   By: fgabler <fgabler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 17:46:08 by fritzgabler       #+#    #+#             */
-/*   Updated: 2024/01/17 17:08:46 by fgabler          ###   ########.fr       */
+/*   Updated: 2025/12/15 15:26:09 by fgabler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ static char	*update_buffer(char *buffer, char *ret)
 		return (free_it(buffer), NULL);
 	if (buffer[back] == '\n' && buffer[back + 1] == '\0')
 		return (free_it(buffer), NULL);
-	new_buffer = (char *) ft_calloc((ft_strlen(buffer) - back), sizeof(char));
+	new_buffer = (char *) ft_calloc((ft_strlen_null_protected(buffer) - back), sizeof(char));
 	if (buffer[back] == '\n' && buffer[back])
 		back++;
 	if (new_buffer == NULL)
