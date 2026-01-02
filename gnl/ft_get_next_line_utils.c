@@ -6,14 +6,14 @@
 /*   By: fgabler <fgabler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 18:26:06 by fritzgabler       #+#    #+#             */
-/*   Updated: 2025/12/15 15:30:14 by fgabler          ###   ########.fr       */
+/*   Updated: 2026/01/02 16:42:54 by fgabler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// ft_strlen_null_protected: The function initializes a size_t variable i to zero
-// and then loops through the string, incrementing
+// ft_strlen_null_protected: The function initializes a size_t variable i to
+// zero and then loops through the string, incrementing
 // i for each character in the string until the null
 // terminator '\0' is reached. Once the null terminator
 // is reached, the function returns the final value of i,
